@@ -16,7 +16,7 @@ header{
     padding: 30px;
 }
 
-
+/*fine header composto da immagine sfondo piu immagine sovrapposta*/
 
 h2{
     color: rgb(15, 15, 15);
@@ -30,7 +30,22 @@ h4{
     font-style: italic;
 }
  
+.booleaner {
+    color: rgb(24, 163, 237);
+}
 
+description{
+    color: rgb(106, 105, 105);
+    font-size: smaller;
+}
+
+table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+
+/*fine main composta da titoli con relative classi e immagini con descrizione*/
 
 th { background-color: rgb(92, 232, 247);
     width: 300px;
@@ -42,32 +57,28 @@ th { background-color: rgb(92, 232, 247);
 }
 
 .white{
-    color: white;
+    color: rgb(243, 244, 247);
+    background-color: royalblue;
+}
+
+/*fine tabella con classi per stile th e td*/
+
+.img-text { 
+    background-image: url(img/graph.jpg);
+    width: 300px;
+    height: 250px;
+}
+
+
+.img2-text{ 
+    background-image: url(img/monitor.jpg);
+    width: 300px;
+    height: 250px;
 }
 
 
 
-.img-text{
-    position: absolute;
-}
 
-.testo-sovrapposto {
-    position: relative;
-    top: 50px;
-    left: 50px;
-    color: rgb(252, 245, 245);
-}
 
-ul{
-  margin-left: 0%;
-}
 
-li{
-    margin-left: 0%;
-}
-
-description{
-    color: rgb(106, 105, 105);
-    font-size: smaller;
-}
    
